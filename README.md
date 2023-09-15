@@ -23,7 +23,7 @@ The app demonstrates:
 ## File description
 | Filename | Description |
 | :---   | :--- |
-| init.py | Used for initializing the app environment. Has the flask app, SQLAlchemy Database object and flask-restx Api object reprsenting the api.|
+| init.py | Used for initializing the app environment. Has the flask app object, SQLAlchemy Database object and flask-restx Api object reprsenting the api.|
 | api_models.py | Used for defining a structure for the models of the objects that will be actually used during calls. |
 | constants.py | Used for storing constant values like the name of the database. The name of the database can be changed here without disturbing the main logic.|
 | extensions.py | Used for creating a Flask SQLAlchemy Database object which will be used to interact with the SQLite database.  |
